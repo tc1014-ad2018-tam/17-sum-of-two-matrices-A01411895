@@ -84,30 +84,6 @@ int main() {
         }
         printf("\n");
     }
-
-    /*// Resets counter
-    count = 0;
-
-    // Same job as before...
-    printf("\nPlease write %d int number for matrix B.\n", totalSize);
-    for (int x = 0; x < length; x++) {
-        for (int y = 0; y < length; y++) {
-            printf("Number %d =", ++count);
-            scanf("%d", &b[x][y]);
-
-            // Adding all numbers and saving them into C matrix
-            c[x][y] = a[x][y] + b[x][y];
-        }
-    }
-
-    // Now, iterate through C and print all its values
-    printf("\nSum of the elements of A and B:\n");
-    for (int x = 0; x < length; x++) {
-        for (int y = 0; y < length; y++) {
-            printf("%d + %d = %d\n", a[x][y], b[x][y], c[x][y]);
-        }
-    }*/
-
-
+    
     return 0;
 }
